@@ -1,3 +1,8 @@
+### 1.1.0 (January 11, 2015)
+- update usage document
+- update javascript reference document
+- update README.md
+
 ### 1.0.0 (January 11, 2015)
 
 - use Color palette of [Material Design](http://www.google.com/design/spec/material-design/introduction.html)
@@ -32,6 +37,3 @@
     - 10 solid Colors
     - 16 patterns
     - 4 images
-
-
-

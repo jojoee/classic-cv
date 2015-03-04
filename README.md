@@ -23,16 +23,16 @@ CV, Resume - HTML Template - [Demo](http://themes.jouinq.com/classic) | [Support
       │  └── usage..............................usage document
       ├── fonts
       ├── js
-      │  ├── demo.js............................javascript for demo purpose such as settings panel
-      │  ├── script.js..........................main javascript file that's not related with vendors
-      │  └── vendor.js..........................main javascript file that's related with vendors
+      │  ├── demo.js............................javascript for demo purpose such as panel settings
+      │  ├── script.js..........................main javascript file that is not related to vendors
+      │  └── vendor.js..........................main javascript file that is related to vendors
       ├── less
       │  ├── mixins
       │  │  ├── utilities.less..................utility functions such as clearfix()
       │  │  └── vendor-prefixes.less............all about vendor prefix such as border-radius, transition
       │  ├── themes
       │  │  └── themes.less.....................theme generator
-      │  ├── demo.less..........................stylesheet for demo purpose such as settings panel
+      │  ├── demo.less..........................stylesheet for demo purpose such as panel settings
       │  ├── style.less.........................main stylesheet
       │  └── variables.less.....................all variables
       ├── media
@@ -54,7 +54,7 @@ CV, Resume - HTML Template - [Demo](http://themes.jouinq.com/classic) | [Support
       ├── CHANGELOG.MD
       ├── favicon.ico
       ├── index.html............................demo file
-      ├── layout.html...........................demo file without demo.js, demo.css and show all header styles
+      ├── layout.html...........................demo file without demo.js, demo.css + display all heading styles
       └── README.md
 
 # Featured list
@@ -64,15 +64,15 @@ CV, Resume - HTML Template - [Demo](http://themes.jouinq.com/classic) | [Support
 - **Cross browse**r support - IE9+, Chrome 39+, Firefox 31+, Safari Window 5.1.7+, Safari iPhone5 8.1.1
 - [W3C valid](validator.w3.org)
 - **Responsive layout** - based on Bootstrap
-- **Material Design** - Color palette and Ripple click on Google Chrome
+- **Material Design** - Color palette and Ripple effect when click (Google Chrome)
 - **6 Header styles**
-- **6 Theme colors** - easy to create new theme
+- **6 Theme colors**
 - 30 Body background - 10 Solid Colors, 16 Patterns, 4 Images
 - **SEO friendly**
 - **Retina ready**
 - Icon 470+ with Font Awesome
 - **[Support](http://support.jouinq.com/)**
-- **Useage** and **Javascript reference** Documents
+- **Usage** and **Javascript reference** documents
 - Google Fonts
 
 ### Dev
@@ -82,7 +82,7 @@ CV, Resume - HTML Template - [Demo](http://themes.jouinq.com/classic) | [Support
 - **Bootstrap**
 - **Less**
 - Pretty **Code standard** and **DocBlock** comment
-- 2 **Contact form** with validatation
+- 2 **Contact forms** with validation
 - Tooltip, Alert, Modal
 - **Google Map** with COOL style
 - **Portfolio**
