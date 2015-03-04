@@ -1,0 +1,19 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='140' height='25'>
+	<defs>
+		<g id='curves'>
+			<path fill='#ffffff' stroke='#eeeeee' d='M0 20c20,20, 50,20 70,0v-100h-70z'/>
+			<path fill='#ffffff' stroke='#eeeeee' d='M0 15c20,20, 50,20 70,0'/>
+			<path fill='#ffffff' stroke='#eeeeee' d='M0 10c20,20, 50,20 70,0'/>
+			<path fill='#ffffff' stroke='#eeeeee' d='M0 5c20,20, 50,20 70,0'/>
+			<path fill='#ffffff' stroke='#eeeeee' d='M0 0c20,20, 50,20 70,0'/>
+		</g>
+	</defs>
+	<rect width='102%' x='-1%' y='-1%' height='102%' fill='#ffffff'></rect>
+	<use x='0' y='-2' xlink:href='#curves' />
+	<use x='70' y='-2' xlink:href='#curves' />
+	<use x='-35' y='-12' xlink:href='#curves' />
+	<use x='35' y='-12' xlink:href='#curves' />
+	<use x='105' y='-12' xlink:href='#curves' />
+	<use x='0' y='-27' xlink:href='#curves' />  
+	<use x='70' y='-27' xlink:href='#curves' />
+</svg>

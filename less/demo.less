@@ -1,0 +1,145 @@
+@import (reference) "mixins/vendor-prefixes.less" ;
+@import (reference) "mixins/utilities.less" ;
+@import (reference) "variables.less";
+@import (reference) "style.less";
+
+/**
+ * ADDON - settings
+ * 
+ * SETTINGS
+ * - panel
+ * - bg-color
+ * - bg-ptn
+ * - bg-img
+ * - theme-color
+ * - header-style
+ */
+
+/*================================================================
+  #ADDON
+  ================================================================*/
+
+.addon {
+  .settings-btn {
+    position: absolute;
+    top: @space-base * 4;
+  }
+}
+
+/*================================================================
+  #SETTINGS - panel
+  ================================================================*/
+
+.settings-panel {
+  position: absolute;
+  top: @space-base * 5 + 4;
+  left: -200px;
+  width: 200px;
+  border: 1px solid @border-color;
+  z-index: @featured-z-index;
+  .border-radius-none;
+  .print-none;
+
+  .panel-heading {
+    height: @space-base - 1;
+  }
+
+  .panel-title {
+    color: @theme-color;
+    text-transform: uppercase;
+  }
+
+  .panel-body {
+    .theme-item {
+      width: 24px;
+      height: 24px;
+      margin-right: 4px;
+      margin-bottom: 4px;
+      background-color: @theme-color;
+      display: block;
+      float: left;
+      cursor: pointer;
+    }
+  }
+}
+
+/*================================================================
+  #SETTINGS - bg-color
+  ================================================================*/
+
+.default-bg             { body&, .theme-item& { background-color: @body-bg !important; } }
+.red-bg                 { body&, .theme-item& { background-color: @red-bg !important; } }
+.deep-purple-bg         { body&, .theme-item& { background-color: @deep-purple-bg !important; } }
+.blue-bg                { body&, .theme-item& { background-color: @blue-bg !important; } }
+.green-bg               { body&, .theme-item& { background-color: @green-bg !important; } }
+// .amber-bg               { body&, .theme-item& { background-color: @amber-bg !important; } }
+.brown-bg               { body&, .theme-item& { background-color: @brown-bg !important; } }
+.blue-gray-bg           { body&, .theme-item& { background-color: @blue-gray-bg !important; } }
+.gray-lighter-higher-bg { body&, .theme-item& { background-color: @gray-lighter-higher !important; } }
+.gray-lighter-high-bg   { body&, .theme-item& { background-color: @gray-lighter-high !important; } }
+.gray-lighter-bg        { body&, .theme-item& { background-color: @gray-lighter !important; } }
+// .gray-light-bg          { body&, .theme-item& { background-color: @gray-light !important; } }
+
+/*================================================================
+  #SETTINGS - bg-ptn
+  ================================================================*/
+
+.svgeneration-blue-jean           { body&, .theme-item& { background: url(../media/bg/svgeneration-blue-jean.svg) @gray !important; } }
+.svgeneration-construction-paper  { body&, .theme-item& { background-image: url(../media/bg/svgeneration-construction-paper.svg); } }
+.svgeneration-cross-stripes       { body&, .theme-item& { background-image: url(../media/bg/svgeneration-cross-stripes.svg); } }
+.svgeneration-graph-paper         { body&, .theme-item& { background-image: url(../media/bg/svgeneration-graph-paper.svg); } }
+.svgeneration-oriental-roof       { body&, .theme-item& { background-image: url(../media/bg/svgeneration-oriental-roof.svg); } }
+.svgeneration-patchwork           { body&, .theme-item& { background-image: url(../media/bg/svgeneration-patchwork.svg); } }
+.svgeneration-zags                { body&, .theme-item& { background-image: url(../media/bg/svgeneration-zags.svg); } }
+.trianglify-blue                  { body&, .theme-item& { background-size: cover; background-image: url(../media/bg/trianglify-blue.svg); } }
+.trianglify-green-light           { body&, .theme-item& { background-size: cover; background-image: url(../media/bg/trianglify-green-light.svg); } }
+.trianglify-gray                  { body&, .theme-item& { background-size: cover; background-image: url(../media/bg/trianglify-gray.svg); } }
+.trianglify-ocean-blue            { body&, .theme-item& { background-size: cover; background-image: url(../media/bg/trianglify-ocean-blue.svg); } }
+.trianglify-ocean-green           { body&, .theme-item& { background-size: cover; background-image: url(../media/bg/trianglify-ocean-green.svg); } }
+.trianglify-orange                { body&, .theme-item& { background-size: cover; background-image: url(../media/bg/trianglify-orange.svg); } }
+.trianglify-pink                  { body&, .theme-item& { background-size: cover; background-image: url(../media/bg/trianglify-pink.svg); } }
+.trianglify-purple                { body&, .theme-item& { background-size: cover; background-image: url(../media/bg/trianglify-purple.svg); } }
+.trianglify-red                   { body&, .theme-item& { background-size: cover; background-image: url(../media/bg/trianglify-red.svg); } }
+
+/*================================================================
+  #SETTINGS - bg-img
+  ================================================================*/
+
+.gratisography-28h  { body&, .theme-item& { background-image: url(../media/bg/gratisography-28h.jpg); } }
+.gratisography-56h  { body&, .theme-item& { background-image: url(../media/bg/gratisography-56h.jpg); } }
+.gratisography-134h { body&, .theme-item& { background-image: url(../media/bg/gratisography-134h.jpg); } }
+.gratisography-161h { body&, .theme-item& { background-image: url(../media/bg/gratisography-161h.jpg); } }
+
+/*================================================================
+  #SETTINGS - theme-color
+  ================================================================*/
+
+.default      { &.theme-item { .theme-color & { background-color: @gray-light; }} }
+.red          { &.theme-item { .theme-color & { background-color: @red; }} }
+.deep-purple  { &.theme-item { .theme-color & { background-color: @deep-purple; }} }
+.blue         { &.theme-item { .theme-color & { background-color: @blue; }} }
+.green        { &.theme-item { .theme-color & { background-color: @green; }} }
+.amber        { &.theme-item { .theme-color & { background-color: @amber; }} }
+.brown        { &.theme-item { .theme-color & { background-color: @brown; }} }
+.blue-gray    { &.theme-item { .theme-color & { background-color: @blue-gray; }} }
+
+/*================================================================
+  #SETTINGS - header-style
+  ================================================================*/
+  
+.header-style {
+
+  .header-item {
+    cursor: pointer;
+    padding: 4px;
+    background-color: #F5F5F5;
+    margin-top: 4px;
+    display: inline-block;
+
+    &:hover,
+    &.active {
+      background-color: @accent-color;
+      color: #fff !important;
+    }
+  }
+}

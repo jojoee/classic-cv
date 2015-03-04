@@ -1,0 +1,172 @@
+/**
+ * BORDER
+ *
+ * GRADIENT
+ *
+ * CLEARFIX
+ *
+ * UTILITIES
+ * - text-hide............image replacement
+ * - size.................
+ * - square...............
+ * - overflow-hidden......
+ * - size.................
+ * - circle...............
+ * - padding-none.........padding 0
+ * - margin-none..........margin 0
+ * - border-none..........
+ * - border-radius-none...
+ * - transition-none......transition none
+ * - print-none...........display none on media print
+ * - text-overflow........text-overflow
+ * - font-face............#font > .font-face
+ * - content-columns......
+ * - opacity..............
+ * - resizable............
+ */
+
+/*================================================================
+  #BORDER
+  ================================================================*/
+
+// single side border-radius
+.border-top-radius(@radius) {
+  border-top-right-radius: @radius;
+   border-top-left-radius: @radius;
+}
+.border-right-radius(@radius) {
+  border-bottom-right-radius: @radius;
+     border-top-right-radius: @radius;
+}
+.border-bottom-radius(@radius) {
+  border-bottom-right-radius: @radius;
+   border-bottom-left-radius: @radius;
+}
+.border-left-radius(@radius) {
+  border-bottom-left-radius: @radius;
+     border-top-left-radius: @radius;
+}
+
+/*================================================================
+  #GRADIENT
+  ================================================================*/
+
+.gradient(@origin: left, @start: #ffffff, @stop: #000000) {
+  background-color: @start;
+  background-image: -webkit-linear-gradient(@origin, @start, @stop);
+  background-image: -moz-linear-gradient(@origin, @start, @stop);
+  background-image: -o-linear-gradient(@origin, @start, @stop);
+  background-image: -ms-linear-gradient(@origin, @start, @stop);
+  background-image: linear-gradient(@origin, @start, @stop);
+}
+
+/*================================================================
+  #CLEARFIX
+  ================================================================*/
+
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix() {
+  *zoom:1;
+  
+  &:before,
+  &:after {
+    content:"";
+    display:table;
+  }
+  &:after {
+    clear:both;
+  }
+}
+
+/*================================================================
+  #UTILITIES
+  ================================================================*/
+
+// image Replacement
+.text-hide {
+  font: ~"0/0" a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.size(@width, @height) {
+  width: @width;
+  height: @height;
+}
+
+.square(@size) {
+  .size(@size, @size);
+}
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.overflow-visible {
+  overflow: visible !important;
+}
+
+.circle {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.padding-none { padding: 0; }
+.margin-none { margin: 0; }
+.border-none { border: none; }
+.border-radius-none { .border-radius(0); }
+.transition-none {
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: color 0 ease-in;
+  transition: none;
+}
+
+.print-none {
+  @media print {
+    display: none;
+  }
+}
+
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// font face
+#font {
+  .font-face(@fontName, @fontFile) {
+    src: url("@{fontFile}-webfont.eot");
+    src: url("@{fontFile}-webfont.eot?#iefix") format("embedded-opentype"), url("@{fontFile}-webfont.woff") format("woff"), url("@{fontFile}-webfont.ttf") format("truetype"), url("@{fontFile}-webfont.svg#@{fontName}") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+// CSS3 Content Columns
+.content-columns(@width, @count, @gap) {
+  -webkit-column-width: @width;
+     -moz-column-width: @width;
+          column-width: @width;
+  -webkit-column-count: @count;
+     -moz-column-count: @count;
+          column-count: @count;
+    -webkit-column-gap: @gap;
+       -moz-column-gap: @gap;
+            column-gap: @gap;
+}
+
+// opacity
+.opacity(@opacity) {
+  opacity: @opacity / 100;
+  filter: ~"alpha(opacity=@{opacity})";
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@{opacity})";
+}
+
+.resizable(@direction) {
+  resize: @direction; // Options: horizontal, vertical, both
+  overflow: auto; // Safari fix
+}

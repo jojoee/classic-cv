@@ -1,0 +1,53 @@
+@import (reference) "../variables.less";
+@import (reference) "../style.less";
+
+/*================================================================
+  #THEME - TEMPLATE
+  ================================================================*/
+
+.theme-default(@color) {
+
+  // #header > .cv-section:first-child {
+  #header > .cv-section {
+    border-top: 10px solid @color;
+  }
+
+  a,
+  li:before,
+  .content .fa,
+  .settings-panel .panel-title {
+    color: @color;
+  }
+
+  .addon {
+    .settings-btn,
+    .contact-btn,
+    .to-top-btn,
+    .print-btn,
+    .download-btn {
+      color: @color;
+    }
+  }
+  
+  // .settings-panel .panel-body.theme-color .theme-item,
+  #contact-section [type="submit"],
+  #contact-section-second [type="submit"] {
+    background-color: @color;
+
+    &:hover {
+      background-color: @accent-color;
+    }
+  }
+}
+
+/*================================================================
+  #THEME - GENERATE
+  ================================================================*/
+
+#theme-red          { .theme-default(@red); }
+// #theme-deep-purple  { .theme-default(@deep-purple); }
+#theme-blue         { .theme-default(@blue); }
+#theme-green        { .theme-default(@green); }
+// #theme-amber        { .theme-default(@amber); }
+#theme-brown        { .theme-default(@brown); }
+#theme-blue-gray    { .theme-default(@blue-gray); }
