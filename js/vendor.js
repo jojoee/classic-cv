@@ -2,9 +2,6 @@ jQuery( document ).ready(function () {
 
   /**
    * set tooltip by bootstrap
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    */
   function setBootstrapTooltip() {
     if ( $.fn.tooltip ) {
@@ -14,10 +11,7 @@ jQuery( document ).ready(function () {
 
   /**
    * set ripple effect by Waves
-   * work on chrome
-   *
-   * @since 1.0.0
-   * @version 1.0.0
+   * work on chrome only
    */
   function setRippleEffect() {
     if ( Waves.displayEffect() ) {
@@ -27,9 +21,6 @@ jQuery( document ).ready(function () {
 
   /**
    * set lightbox by MagnificPopup
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    */
   function setLightbox() {
     if ( $.fn.magnificPopup ) {
@@ -49,9 +40,6 @@ jQuery( document ).ready(function () {
    * set form validation by validate
    * notify with modal
    * require bootstrap modal
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    *
    * @requires bootstrap modal
    * 
@@ -96,11 +84,6 @@ jQuery( document ).ready(function () {
    * set form validation by validate
    * notify with alert
    * require bootstrap alert
-   * 
-   * @since 1.0.0
-   * @version 1.0.0
-   *
-   * @requires bootstrap alert
    */
   function setFormValidationNotifyByAlert() {
     var $formSelector = $( '#contact-form' );
@@ -155,9 +138,6 @@ jQuery( document ).ready(function () {
   /**
    * set auto closing alert for boostrap alert
    *
-   * @since 1.0.0
-   * @version 1.0.0
-   *
    * @param  {Selector} selector selector of alert box
    * @param  {Number}   delay    delay time (ms)
    */
@@ -169,9 +149,6 @@ jQuery( document ).ready(function () {
   /**
    * set google map
    *
-   * @since 1.0.0
-   * @version 1.0.0
-   * 
    * @param  {Number} la   latitude 
    * @param  {Number} ln   longitude
    */
@@ -182,8 +159,6 @@ jQuery( document ).ready(function () {
       lat: la,
       lng: ln,
       zoom: 13,
-      //  Subtle Grayscale
-      styles: [{featureType:"landscape",stylers:[{saturation:-100},{lightness:65},{visibility:"on"}]},{featureType:"poi",stylers:[{saturation:-100},{lightness:51},{visibility:"simplified"}]},{featureType:"road.highway",stylers:[{saturation:-100},{visibility:"simplified"}]},{featureType:"road.arterial",stylers:[{saturation:-100},{lightness:30},{visibility:"on"}]},{featureType:"road.local",stylers:[{saturation:-100},{lightness:40},{visibility:"on"}]},{featureType:"transit",stylers:[{saturation:-100},{visibility:"simplified"}]},{featureType:"administrative.province",stylers:[{visibility:"off"}]/**/},{featureType:"administrative.locality",stylers:[{visibility:"off"}]},{featureType:"administrative.neighborhood",stylers:[{visibility:"on"}]/**/},{featureType:"water",elementType:"labels",stylers:[{visibility:"on"},{lightness:-25},{saturation:-100}]},{featureType:"water",elementType:"geometry",stylers:[{hue:"#ffff00"},{lightness:-25},{saturation:-97}]}],
       zoomControl : true,
       zoomControlOpt: {
         style : 'SMALL',
@@ -191,6 +166,7 @@ jQuery( document ).ready(function () {
       },
       panControl : false,
       streetViewControl : false,
+      scrollwheel: false,
       mapTypeControl: false,
       overviewMapControl: false
     });
@@ -198,9 +174,6 @@ jQuery( document ).ready(function () {
 
   /**
    * set easy pie chart
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    *
    * @param  {Selector} selector  selector of pie chart element
    */
@@ -219,9 +192,6 @@ jQuery( document ).ready(function () {
 
   /**
    * initial all vendor functions
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    */
   var initialVendorScript = new function () {
     

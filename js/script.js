@@ -1,9 +1,6 @@
 /**
  * check element is exists, not null, not empty
  *
- * @since 1.0.0
- * @version 1.0.0
- *
  * @param  {Element} $element   element that you want to check
  * @return {Boolean}
  */
@@ -14,9 +11,6 @@ function isExists( $element ) {
 /**
  * check attr is exists
  *
- * @since 1.0.0
- * @version 1.0.0
- * 
  * @param  {Element} $element   element that you want to check
  * @param  {String}  attrName   attr name of element
  * @return {Boolean}
@@ -36,9 +30,6 @@ function hasAttr( $element, attrName ) {
 /**
  * check attr 'data-*' is exists
  *
- * @since 1.0.0
- * @version 1.0.0
- * 
  * @param  {Element} $element       element that you want to check
  * @param  {String}  dataAttrName   attr name that you want to check (e.g. 'test', function will looking for 'data-test')
  * @return {Boolean} 
@@ -55,9 +46,6 @@ jQuery( document ).ready(function() {
 
   /**
    * bind go to top function on the button
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    */
   function setGoToTopBtn() {
     $toTopBtn.click(function( e ) {
@@ -68,9 +56,6 @@ jQuery( document ).ready(function() {
 
   /**
    * slide toggle of contact form panel
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    */
   function setContactFormPanelBtn() {
     var $contactFormPanel = $( '.contact-panel' );
@@ -86,9 +71,6 @@ jQuery( document ).ready(function() {
 
   /**
    * set preload then hide when load complete
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    */
   function setPreload() {
     var $loading = $( '#loading' );
@@ -110,9 +92,6 @@ jQuery( document ).ready(function() {
 
   /**
    * set dynamic year of copyright on footer
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    */
   function setDynamicCopyrightYear() {
     $( '.copyright' ).find( 'span.year' ).text( '2015' );
@@ -120,9 +99,6 @@ jQuery( document ).ready(function() {
 
   /**
    * set all functions that have to check when you scroll
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    */
   function setWindowScrollFunction() {
     var offset = $( window ).height() / 2;
@@ -150,9 +126,6 @@ jQuery( document ).ready(function() {
 
   /**
    * initial all script functions
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    */
   var initMainScript = new function() {
     
@@ -166,9 +139,6 @@ jQuery( document ).ready(function() {
 
   /**
    * when window scroll
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    */
   $( window ).scroll(function() {
     setWindowScrollFunction();
@@ -176,9 +146,6 @@ jQuery( document ).ready(function() {
 
   /**
    * when window resize
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    */
   $( window ).resize(function() {
     

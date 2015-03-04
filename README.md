@@ -53,30 +53,27 @@ CV, Resume - HTML Template - [Demo](http://themes.jouinq.com/classic) | [Support
       ├── apple-touch-icon-precomposed.png
       ├── CHANGELOG.MD
       ├── favicon.ico
-      ├── index.html............................demo file
-      ├── layout.html...........................demo file without demo.js, demo.css + display all heading styles
+      ├── demo.html............................demo file
+      ├── all-layouts.html.....................demo file without demo.js, demo.css + display all heading styles
       └── README.md
 
-# Featured list
+# Full Featured list
 
 ### Design, Usage
 
-- **Cross browse**r support - IE9+, Chrome 39+, Firefox 31+, Safari Window 5.1.7+, Safari iPhone5 8.1.1
-- [W3C valid](validator.w3.org)
-- **Responsive layout** - based on Bootstrap
-- **Material Design** - Color palette and Ripple effect when click (Google Chrome)
-- **6 Header styles**
-- **6 Theme colors**
-- 30 Body background - 10 Solid Colors, 16 Patterns, 4 Images
-- **SEO friendly**
-- **Retina ready**
-- Icon 470+ with Font Awesome
-- **[Support](http://support.jouinq.com/)**
-- **Usage** and **Javascript reference** documents
-- Google Fonts
-
-### Dev
-
++ **Cross browse**r support - IE9+, Chrome 39+, Firefox 31+, Safari Window 5.1.7+, Safari iPhone5 8.1.1
++ [W3C valid](validator.w3.org)
++ **Responsive layout** - based on Bootstrap
++ **Material Design** - Color palette and Ripple effect when click (Google Chrome)
++ **7 Header styles**
++ **6 Theme colors**
++ 30 Body background - 10 Solid Colors, 16 Patterns, 4 Images
++ **SEO friendly**
++ **Retina ready**
++ Icon 470+ with Font Awesome
++ **[Support](http://support.jouinq.com/)**
++ **Usage** and **Javascript reference** documents
++ Google Fonts
 - HTML5 + CSS3
 - jQuery
 - **Bootstrap**
@@ -90,14 +87,7 @@ CV, Resume - HTML Template - [Demo](http://themes.jouinq.com/classic) | [Support
 - Dynamic copyright year
 - Preload
 
-
-# Documentation, Support
-
-- Usage Document
-- Javascript Reference Document
-- [Support](http://support.jouinq.com)
-
-# Thanks
+# Thank You
 
 - [Material Design](http://www.google.com/design/spec/material-design/introduction.html)
 - [Gulp](http://gulpjs.com/)
@@ -118,6 +108,7 @@ CV, Resume - HTML Template - [Demo](http://themes.jouinq.com/classic) | [Support
 - [Trianglify](http://qrohlf.com/trianglify/),  [customize](http://msurguy.github.io/triangles/) - GNU V.3
 - svgeneration.com - MIT
 - gratisography.com - CC0 1.0 Universal (CC0 1.0)
+- [Placehold](http://placehold.it/)
 - X by [Thomas Leuthard](https://www.flickr.com/photos/thomasleuthard) - CC BY-ND 2.0
 - Reprocess on Teresa’s Bench by [Randy Wick](https://www.flickr.com/photos/cantchangerandy) - CC BY-ND 2.0
 - Dirk by [a4gpa](https://www.flickr.com/photos/a4gpa) - CC BY-ND 2.0
@@ -126,3 +117,7 @@ CV, Resume - HTML Template - [Demo](http://themes.jouinq.com/classic) | [Support
 - Stare by [JohnONolan](https://www.flickr.com/photos/johnonolan) - CC BY-ND 2.0
 - Clock by [anieto2k](https://www.flickr.com/photos/anieto2k) - CC BY-ND 2.0
 - Buzz by [kennymatic](https://www.flickr.com/photos/kwl) - CC BY-ND 2.0
+- Mac Device Mock - [Michael Reimer](http://www.bestpsdfreebies.com/)
+- Web browser icon - [Zlatko Najdenovski](https://www.iconfinder.com/zlaten) and [Pixel Buddha](https://www.iconfinder.com/PixelBuddha)
+
+All images and google map style in the preview files are not included into the download package

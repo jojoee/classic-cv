@@ -1,3 +1,8 @@
+### 1.1.1 (January 18, 2015)
+- remove @since, @version @requires from docblock comments
+- update footer on usage and javascript reference document
+- change all images to placeholder image
+
 ### 1.1.0 (January 11, 2015)
 - update usage document
 - update javascript reference document

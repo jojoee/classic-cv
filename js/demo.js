@@ -6,9 +6,6 @@ jQuery( document ).ready(function( $ ) {
 
   /**
    * set settings panel button
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    */
   function setSettingsBtn() {
     var settingsDiv = '<!-- settings-btn --> \
@@ -103,9 +100,6 @@ jQuery( document ).ready(function( $ ) {
 
   /**
    * change body background
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    * 
    * @param  {Element} $element   button element that's clicked
    * @param  {String}  dataAttr   data property for getting value
@@ -124,9 +118,6 @@ jQuery( document ).ready(function( $ ) {
 
   /**
    * change theme color
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    * 
    * @param  {Element} $element  button element that's clicked
    */
@@ -140,9 +131,6 @@ jQuery( document ).ready(function( $ ) {
 
   /**
    * set all settings buttons
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    */
   function setSettingsFunction() {
     $( '.bg-color .theme-item' ).on( 'click', function() { changeBodyBg( $( this ), 'bg-color' ); });
@@ -154,9 +142,6 @@ jQuery( document ).ready(function( $ ) {
 
   /**
    * set header style
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    */
   function updateHeaderStyle() {
     $( '#header .cv-section.header-' + currentHeaderStyle )
@@ -167,9 +152,6 @@ jQuery( document ).ready(function( $ ) {
 
   /**
    * change header style
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    * 
    * @param  {Element} $element  element of header style button that's clicked
    */
@@ -193,9 +175,6 @@ jQuery( document ).ready(function( $ ) {
 
   /**
    * initial all demo functions
-   *
-   * @since 1.0.0
-   * @version 1.0.0
    */
   var initDemoScript = new function() {
 
