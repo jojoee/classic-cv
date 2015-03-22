@@ -1,9 +1,6 @@
-Classic
-========
+# Classic CV
 
-CV, Resume - HTML Template - [Demo](http://themes.jouinq.com/classic) | [Support](http://support.jouinq.com)
-
---------------------------------
+Classic clean cv / resume html template - [Demo](http://demo.jojoee.com/classic) | [Usage Doc](http://demo.jojoee.com/classic/docs/usage/) | [Reference Doc](http://demo.jojoee.com/classic/docs/reference/) | [Support](http://forum.jojoee.com)
 
 # Folder structure
 
@@ -71,7 +68,7 @@ CV, Resume - HTML Template - [Demo](http://themes.jouinq.com/classic) | [Support
 + **SEO friendly**
 + **Retina ready**
 + Icon 470+ with Font Awesome
-+ **[Support](http://support.jouinq.com/)**
++ **[Support](http://forum.jojoee.com/)**
 + **Usage** and **Javascript reference** documents
 + Google Fonts
 - HTML5 + CSS3

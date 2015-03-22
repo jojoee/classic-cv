@@ -1,0 +1,19 @@
+# Backup folder
+bk/
+
+# Documents
+docs/
+
+# Demo / Package purpose
+media-demo/
+brochure.html
+live demo checklist.md
+package checklist.md
+
+# Gulp
+node_modules/
+gulpfile.js
+
+# Dev purpose
+index.html
+2d.md
