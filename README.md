@@ -1,10 +1,10 @@
 # Classic CV
 
-Classic clean cv / resume html template - [Demo](http://demo.jojoee.com/classic) | [Usage Doc](http://demo.jojoee.com/classic/docs/usage/) | [Reference Doc](http://demo.jojoee.com/classic/docs/reference/) | [Support](http://forum.jojoee.com)
+Classic CV / Resume HTML Template - [Demo](http://demo.jojoee.com/classic-cv) | [Usage Doc](http://demo.jojoee.com/classic-cv/docs/usage/) | [Reference Doc](http://demo.jojoee.com/classic-cv/docs/reference/) | [Support](http://forum.jojoee.com)
 
 # Folder structure
 
-    classic
+    classic-cv
       ├── css
       │  ├── themes
       │  │  ├── theme-blue.css..................blue theme
@@ -55,8 +55,6 @@ Classic clean cv / resume html template - [Demo](http://demo.jojoee.com/classic)
       └── README.md
 
 # Full Featured list
-
-### Design, Usage
 
 + **Cross browse**r support - IE9+, Chrome 39+, Firefox 31+, Safari Window 5.1.7+, Safari iPhone5 8.1.1
 + [W3C valid](validator.w3.org)

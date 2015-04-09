@@ -228,8 +228,11 @@ a {
   ================================================================*/
 
 .header-bimg {
-  background: url(../media/profile/user-bg.jpg) right top no-repeat;
-  background-size: cover;
+  
+  @media (min-width: @screen-xs-min) {
+    background: url(../media/profile/user-bg.jpg) right top no-repeat;
+    background-size: cover;
+  }
 }
 
 .header-bimg-fullw {

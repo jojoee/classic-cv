@@ -8,12 +8,9 @@ jQuery( document ).ready(function( $ ) {
    * set settings panel button
    */
   function setSettingsBtn() {
-    var settingsDiv = '<!-- settings-btn --> \
-      <a data-toggle="tooltip" data-placement="right" class="settings-btn addon-left waves-effect waves-block" title="Setting Me Up" href="javascript:;"><i class="fa fa-cog"></i></a> \
-      <!-- /settings-btn --> \
-      <!-- settings-panel --> \
+    var settingsDiv = '<a data-toggle="tooltip" data-placement="right" class="settings-btn addon-left waves-effect waves-block" title="Setting Me Up" href="javascript:;"><i class="fa fa-cog"></i></a> \
+      <!-- .settings-btn --> \
       <div class="settings-panel panel visible-lg-block"> \
-        <!-- header-style --> \
         <div class="panel-heading panel-default"><p class="panel-title">Header Style</p></div> \
         <div class="panel-body header-style"> \
           <a data-header-style="classic" class="header-item">Classic</a> \
@@ -24,8 +21,7 @@ jQuery( document ).ready(function( $ ) {
           <a data-header-style="norm" class="header-item">Just Name</a> \
           <a data-header-style="binfo" class="header-item">INFO</a> \
         </div> \
-        <!-- /header-style --> \
-        <!-- theme-color --> \
+        <!-- .header-style --> \
         <div class="panel-heading panel-default"><p class="panel-title">Theme Color</p></div> \
         <div class="panel-body theme-color"> \
           <a data-theme-color="default" class="default theme-item" title="Default - Gray">&nbsp;</a> \
@@ -35,8 +31,7 @@ jQuery( document ).ready(function( $ ) {
           <a data-theme-color="brown" class="brown theme-item" title="Brown">&nbsp;</a> \
           <a data-theme-color="blue-gray" class="blue-gray theme-item" title="Blue Gray">&nbsp;</a> \
         </div> \
-        <!-- /theme-color --> \
-        <!-- bg-color --> \
+        <!-- .theme-color --> \
         <div class="panel-heading panel-default"><p class="panel-title">BG Color</p></div> \
         <div class="panel-body bg-color"> \
           <a data-bg-color="default-bg" class="default-bg theme-item" title="Gray">&nbsp;</a> \
@@ -50,8 +45,7 @@ jQuery( document ).ready(function( $ ) {
           <a data-bg-color="gray-lighter-high-bg" class="gray-lighter-high-bg theme-item" title="Gray Lighter High">&nbsp;</a> \
           <a data-bg-color="gray-lighter-bg" class="gray-lighter-bg theme-item" title="Gray Lighter">&nbsp;</a> \
         </div> \
-        <!-- /bg-color --> \
-        <!-- bg-ptn --> \
+        <!-- .bg-color --> \
         <div class="panel-heading panel-default"><p class="panel-title">BG Pattern</p></div> \
         <div class="panel-body bg-ptn"> \
           <a data-bg-ptn="svgeneration-blue-jean" class="svgeneration-blue-jean theme-item" title="Blue Jean">&nbsp;</a> \
@@ -71,8 +65,7 @@ jQuery( document ).ready(function( $ ) {
           <a data-bg-ptn="trianglify-purple" class="trianglify-purple theme-item" title="Purple">&nbsp;</a> \
           <a data-bg-ptn="trianglify-red" class="trianglify-red theme-item" title="Red">&nbsp;</a> \
         </div> \
-        <!-- /bg-ptn --> \
-        <!-- bg-img --> \
+        <!-- .bg-ptn --> \
         <div class="panel-heading panel-default"><p class="panel-title">BG Image</p></div> \
         <div class="panel-body bg-img"> \
           <a data-bg-img="gratisography-28h" class="gratisography-28h theme-item" title="Sea">&nbsp;</a> \
@@ -80,9 +73,9 @@ jQuery( document ).ready(function( $ ) {
           <a data-bg-img="gratisography-134h" class="gratisography-134h theme-item" title="Toy">&nbsp;</a> \
           <a data-bg-img="gratisography-161h" class="gratisography-161h theme-item" title="Smile cook">&nbsp;</a> \
         </div> \
-        <!-- /bg-img --> \
+        <!-- .bg-img --> \
       </div> \
-      <!-- /settings-panel -->';
+      <!-- .settings-panel -->';
 
     $( '.addon' ).prepend( settingsDiv );
     
