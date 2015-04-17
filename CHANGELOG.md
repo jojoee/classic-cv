@@ -1,3 +1,22 @@
+### 1.1.2 (April 17, 2015)
+- remove ripple effect from `download` button
+- move GA code from bottom to top
+- add `Persian Green` theme but doesn't add to demo and doc yet
+- update js docblocks syntax
+- add `target="_blank"` to all external links
+- update `header-bimg` class
+- change html comment pattern
+- update README.md a bit
+- update html comment syntax
+- add index.html (replace demo.html)
+- change reference domain
+- update favicon
+- add .gitattributes
+- add .gitignore
+- add google map style (Subtle Grayscale)
+- rename media folder to media-placeholder
+- rename media-demo folder to media
+
 ### 1.1.1 (January 18, 2015)
 - remove @since, @version @requires from docblock comments
 - update footer on usage and javascript reference document
@@ -9,7 +28,6 @@
 - update README.md
 
 ### 1.0.0 (January 11, 2015)
-
 - use Color palette of [Material Design](http://www.google.com/design/spec/material-design/introduction.html)
 - use [Gulp](http://gulpjs.com/) for development environment
 - use [Less](http://lesscss.org/) and also
