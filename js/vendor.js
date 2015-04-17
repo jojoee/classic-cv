@@ -43,7 +43,7 @@ jQuery( document ).ready(function () {
    *
    * @requires bootstrap modal
    * 
-   * @param  {Selector} formSelector   form selector that you want to check
+   * @param {Selector} formSelector form selector that you want to check
    */
   function setFormValidationNotifyByModal( formSelector ) {
     if ( $.fn.validate ) {
@@ -84,6 +84,8 @@ jQuery( document ).ready(function () {
    * set form validation by validate
    * notify with alert
    * require bootstrap alert
+   *
+   * @requires bootstrap alert
    */
   function setFormValidationNotifyByAlert() {
     var $formSelector = $( '#contact-form' );
@@ -138,8 +140,8 @@ jQuery( document ).ready(function () {
   /**
    * set auto closing alert for boostrap alert
    *
-   * @param  {Selector} selector selector of alert box
-   * @param  {Number}   delay    delay time (ms)
+   * @param {Selector} selector selector of alert box
+   * @param {Number}   delay    delay time (ms)
    */
   function setAutoClosingAlert( selector, delay ) {
     var alert = $( selector ).alert();
@@ -149,8 +151,8 @@ jQuery( document ).ready(function () {
   /**
    * set google map
    *
-   * @param  {Number} la   latitude 
-   * @param  {Number} ln   longitude
+   * @param {Number} la latitude 
+   * @param {Number} ln longitude
    */
   function setGoogleMap( la, ln ) {
     var map;
@@ -177,7 +179,7 @@ jQuery( document ).ready(function () {
   /**
    * set easy pie chart
    *
-   * @param  {Selector} selector  selector of pie chart element
+   * @param {Selector} selector selector of pie chart element
    */
   function setPieChart( selector ) {
     $( selector ).easyPieChart({

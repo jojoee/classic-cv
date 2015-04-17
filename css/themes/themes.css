@@ -124,3 +124,27 @@
 #theme-blue-gray #contact-section-second [type="submit"]:hover {
   background-color: #ffb300;
 }
+#theme-persian-green #header > .cv-section {
+  border-top: 10px solid #03b48d;
+}
+#theme-persian-green a,
+#theme-persian-green li:before,
+#theme-persian-green .content .fa,
+#theme-persian-green .settings-panel .panel-title {
+  color: #03b48d;
+}
+#theme-persian-green .addon .settings-btn,
+#theme-persian-green .addon .contact-btn,
+#theme-persian-green .addon .to-top-btn,
+#theme-persian-green .addon .print-btn,
+#theme-persian-green .addon .download-btn {
+  color: #03b48d;
+}
+#theme-persian-green #contact-section [type="submit"],
+#theme-persian-green #contact-section-second [type="submit"] {
+  background-color: #03b48d;
+}
+#theme-persian-green #contact-section [type="submit"]:hover,
+#theme-persian-green #contact-section-second [type="submit"]:hover {
+  background-color: #ffb300;
+}

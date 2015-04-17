@@ -8,7 +8,7 @@ jQuery( document ).ready(function( $ ) {
    * set settings panel button
    */
   function setSettingsBtn() {
-    var settingsDiv = '<a data-toggle="tooltip" data-placement="right" class="settings-btn addon-left waves-effect waves-block" title="Setting Me Up" href="javascript:;"><i class="fa fa-cog"></i></a> \
+    var settingsDiv = '<a data-toggle="tooltip" data-placement="right" class="settings-btn addon-left" title="Setting Me Up" href="javascript:;"><i class="fa fa-cog"></i></a> \
       <!-- .settings-btn --> \
       <div class="settings-panel panel visible-lg-block"> \
         <div class="panel-heading panel-default"><p class="panel-title">Header Style</p></div> \
@@ -94,8 +94,8 @@ jQuery( document ).ready(function( $ ) {
   /**
    * change body background
    * 
-   * @param  {Element} $element   button element that's clicked
-   * @param  {String}  dataAttr   data property for getting value
+   * @param {Element} $element button element that's clicked
+   * @param {String}  dataAttr data property for getting value
    */
   function changeBodyBg( $element, dataAttr ) {
     var bgClass = $element.data( dataAttr );
@@ -112,7 +112,7 @@ jQuery( document ).ready(function( $ ) {
   /**
    * change theme color
    * 
-   * @param  {Element} $element  button element that's clicked
+   * @param {Element} $element button element that's clicked
    */
   function changeThemeColor( $element ) {
     var idName = $element.data( 'theme-color' );
@@ -146,7 +146,7 @@ jQuery( document ).ready(function( $ ) {
   /**
    * change header style
    * 
-   * @param  {Element} $element  element of header style button that's clicked
+   * @param {Element} $element element of header style button that's clicked
    */
   function changeHeaderStyle( $element ) {
 

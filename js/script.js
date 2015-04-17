@@ -1,7 +1,7 @@
 /**
  * check element is exists, not null, not empty
  *
- * @param  {Element} $element   element that you want to check
+ * @param  {Element} $element element that you want to check
  * @return {Boolean}
  */
 function isExists( $element ) {
@@ -11,8 +11,8 @@ function isExists( $element ) {
 /**
  * check attr is exists
  *
- * @param  {Element} $element   element that you want to check
- * @param  {String}  attrName   attr name of element
+ * @param  {Element} $element element that you want to check
+ * @param  {String}  attrName attr name of element
  * @return {Boolean}
  */
 function hasAttr( $element, attrName ) {
@@ -30,8 +30,8 @@ function hasAttr( $element, attrName ) {
 /**
  * check attr 'data-*' is exists
  *
- * @param  {Element} $element       element that you want to check
- * @param  {String}  dataAttrName   attr name that you want to check (e.g. 'test', function will looking for 'data-test')
+ * @param  {Element} $element     element that you want to check
+ * @param  {String}  dataAttrName attr name that you want to check (e.g. 'test', function will looking for 'data-test')
  * @return {Boolean} 
  */
 function hasDataAttr( $element, dataAttrName ) {
