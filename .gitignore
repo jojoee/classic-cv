@@ -4,8 +4,9 @@ bk/
 # Documents
 docs/
 
-# Demo / Package purpose
+# Demo / Packaging purpose
 media-demo/
+brochure/
 brochure.html
 live demo checklist.md
 package checklist.md

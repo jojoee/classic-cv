@@ -154,13 +154,13 @@ jQuery( document ).ready(function () {
    * @param {Number} la latitude 
    * @param {Number} ln longitude
    */
-  function setGoogleMap( la, ln ) {
+  function setGoogleMap( la, ln, zoomLevel ) {
     var map;
     map = new GMaps({
       el: '#gmap',
       lat: la,
       lng: ln,
-      zoom: 13,
+      zoom: zoomLevel,
       //  Subtle Grayscale
       styles: [{featureType:"landscape",stylers:[{saturation:-100},{lightness:65},{visibility:"on"}]},{featureType:"poi",stylers:[{saturation:-100},{lightness:51},{visibility:"simplified"}]},{featureType:"road.highway",stylers:[{saturation:-100},{visibility:"simplified"}]},{featureType:"road.arterial",stylers:[{saturation:-100},{lightness:30},{visibility:"on"}]},{featureType:"road.local",stylers:[{saturation:-100},{lightness:40},{visibility:"on"}]},{featureType:"transit",stylers:[{saturation:-100},{visibility:"simplified"}]},{featureType:"administrative.province",stylers:[{visibility:"off"}]/**/},{featureType:"administrative.locality",stylers:[{visibility:"off"}]},{featureType:"administrative.neighborhood",stylers:[{visibility:"on"}]/**/},{featureType:"water",elementType:"labels",stylers:[{visibility:"on"},{lightness:-25},{saturation:-100}]},{featureType:"water",elementType:"geometry",stylers:[{hue:"#ffff00"},{lightness:-25},{saturation:-97}]}],
       zoomControl : true,
@@ -205,6 +205,8 @@ jQuery( document ).ready(function () {
     setLightbox();
     setFormValidationNotifyByModal( '#contact-form-second' );
     setFormValidationNotifyByAlert();
-    setGoogleMap( 40.712784, -74.005941);
+    
+    // setGoogleMap( 40.712784, -74.005941, 13 ); // New York
+    setGoogleMap( 13.7246005, 100.6331108, 10 ); // Bangkok
   }
 });
