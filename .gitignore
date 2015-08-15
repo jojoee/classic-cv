@@ -13,7 +13,6 @@ package checklist.md
 
 # Gulp
 node_modules/
-gulpfile.js
 
 # Dev purpose
 2d.md
