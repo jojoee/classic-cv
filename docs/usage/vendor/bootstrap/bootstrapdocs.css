@@ -1,0 +1,101 @@
+.bootstrapdocs-bs-old-docs {
+    padding: 15px 20px;
+    color: #777;
+    background-color: #fafafa;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+#bootstrapdocs-overlay-bar {
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    bottom: 0;
+}
+
+#bootstrapdocs-overlay-bar > a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    height: 33px;
+    background-color: white;
+    line-height: 33px;
+    -webkit-border-radius: 0px 10px 0px 0px;
+    -moz-border-radius: 0px 10px 0px 0px;
+    border-radius: 0px 10px 0px 0px;
+    padding: 0 1em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#bootstrapdocs-overlay-bar > a:hover {
+    text-decoration: none;
+}
+
+.bootstrapdocs-a {
+    color: #0088cc;
+}
+
+#bootstrapdocs-overlay {
+    color: #333;
+
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+    z-index: 1001;
+}
+
+#bootstrapdocs-overlay a {
+    color: #333;
+    font-weight: bold;
+}
+
+#bootstrapdocs-overlay a:hover {
+    /*text-decoration: none;*/
+}
+
+#bootstrapdocs-overlay ul {
+    margin: 40px 0px 0px 40px;
+    padding: 0px;
+    list-style: none;
+}
+
+#bootstrapdocs-overlay li {
+    float: left;
+    margin-left: 8px;
+
+    color: #333;
+
+    background-color: #333;
+    padding: 4px 4px 0px 4px;
+
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.bootstrapdocs-main .bootstrapdocs-inner {
+    padding-left: 20px;
+
+    background-image: url(/shared/caret.png);
+    background-position: 6px 7px;
+    background-repeat: no-repeat;
+}
+
+.bootstrapdocs-extra {
+    display: none;
+}
+
+#bootstrapdocs-overlay:hover .bootstrapdocs-extra {
+    display: block;
+}
+
+.bootstrapdocs-inner {
+    background-color: white;
+    padding: 5px 8px 4px 8px;
+
+    -webkit-border-radius: 8px 8px 0px 0px;
+    -moz-border-radius: 8px 8px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
+}
