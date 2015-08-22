@@ -2,7 +2,7 @@
 
 Classic CV / Resume HTML Template - [Demo](http://demo.jojoee.com/classic-cv) | [Usage Doc](http://demo.jojoee.com/classic-cv/docs/usage/) | [Reference Doc](http://demo.jojoee.com/classic-cv/docs/reference/) | [Support](http://forum.jojoee.com)
 
-# Folder structure
+## Folder structure
 
     classic-cv
       ├── css
@@ -54,9 +54,9 @@ Classic CV / Resume HTML Template - [Demo](http://demo.jojoee.com/classic-cv) | 
       ├── all-layouts.html.....................demo file without demo.js, demo.css + display all heading styles
       └── README.md
 
-# Full Featured list
+## Full Featured list
 
-+ **Cross browse**r support - IE9+, Chrome 39+, Firefox 31+, Safari Window 5.1.7+, Safari iPhone5 8.1.1
++ **Cross browser** support - IE9+, Chrome 39+, Firefox 31+, Safari Window 5.1.7+, Safari iPhone5 8.1.1
 + [W3C valid](validator.w3.org)
 + **Responsive layout** - based on Bootstrap
 + **Material Design** - Color palette and Ripple effect when click (Google Chrome)
@@ -82,12 +82,13 @@ Classic CV / Resume HTML Template - [Demo](http://demo.jojoee.com/classic-cv) | 
 - Dynamic copyright year
 - Preload
 
-# Thank You
+## Thank You
 
 - [Material Design](http://www.google.com/design/spec/material-design/introduction.html)
 - [Gulp](http://gulpjs.com/)
 - [Less](http://lesscss.org/)
-	- Lesshat 3.0.2 - MIT 
+
+	- Lesshat 3.0.2 - MIT
 	- Preboot 2 - MIT
 - [Bootstrap](https://github.com/twbs/bootstrap/) 3.3.1 - MIT
 - [jQuery](http://jquery.com/)
@@ -114,5 +115,11 @@ Classic CV / Resume HTML Template - [Demo](http://demo.jojoee.com/classic-cv) | 
 - Buzz by [kennymatic](https://www.flickr.com/photos/kwl) - CC BY-ND 2.0
 - Mac Device Mock - [Michael Reimer](http://www.bestpsdfreebies.com/)
 - Web browser icon - [Zlatko Najdenovski](https://www.iconfinder.com/zlaten) and [Pixel Buddha](https://www.iconfinder.com/PixelBuddha)
+
+## Future updates
+- update READEME.md on usage document
+
+## Note
+- use 2 spaces to indent
 
 All images and google map style in the preview files are not included into the download package
