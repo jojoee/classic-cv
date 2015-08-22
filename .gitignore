@@ -1,21 +1,6 @@
-# Backup folder
-bk/
-
-# Documents
-docs/
-
-# Demo / Packaging purpose
-media-demo/
-brochure/
-brochure.html
-live demo checklist.md
-package checklist.md
-
-# Gulp
-node_modules/
-
-# Dev purpose
-2d.md
-
-# My
 my/
+bk/
+docs/
+brochure/
+node_modules/
+REF.md
