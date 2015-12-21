@@ -87,9 +87,8 @@ Classic CV / Resume HTML Template - [Demo](http://demo.jojoee.com/classic-cv) | 
 - [Material Design](http://www.google.com/design/spec/material-design/introduction.html)
 - [Gulp](http://gulpjs.com/)
 - [Less](http://lesscss.org/)
-
-	- Lesshat 3.0.2 - MIT
-	- Preboot 2 - MIT
+    - Lesshat 3.0.2 - MIT
+    - Preboot 2 - MIT
 - [Bootstrap](https://github.com/twbs/bootstrap/) 3.3.1 - MIT
 - [jQuery](http://jquery.com/)
 - [Waves](https://github.com/fians/Waves) 0.5.5 - MIT
