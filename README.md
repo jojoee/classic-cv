@@ -121,5 +121,3 @@ Classic CV / Resume HTML Template - [Demo](http://demo.jojoee.com/classic-cv) | 
 
 ## Note
 - use 2 spaces to indent
-
-All images and google map style in the preview files are not included into the download package
