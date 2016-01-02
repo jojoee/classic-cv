@@ -1,0 +1,24 @@
+#theme-blue-gray #header > .cv-section {
+  border-top: 10px solid #607d8b;
+}
+#theme-blue-gray a,
+#theme-blue-gray li:before,
+#theme-blue-gray .content .fa,
+#theme-blue-gray .settings-panel .panel-title {
+  color: #607d8b;
+}
+#theme-blue-gray .addon .settings-btn,
+#theme-blue-gray .addon .contact-btn,
+#theme-blue-gray .addon .to-top-btn,
+#theme-blue-gray .addon .print-btn,
+#theme-blue-gray .addon .download-btn {
+  color: #607d8b;
+}
+#theme-blue-gray #contact-section [type="submit"],
+#theme-blue-gray #contact-section-second [type="submit"] {
+  background-color: #607d8b;
+}
+#theme-blue-gray #contact-section [type="submit"]:hover,
+#theme-blue-gray #contact-section-second [type="submit"]:hover {
+  background-color: #ffb300;
+}

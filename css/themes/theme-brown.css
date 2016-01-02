@@ -1,0 +1,24 @@
+#theme-brown #header > .cv-section {
+  border-top: 10px solid #a1887f;
+}
+#theme-brown a,
+#theme-brown li:before,
+#theme-brown .content .fa,
+#theme-brown .settings-panel .panel-title {
+  color: #a1887f;
+}
+#theme-brown .addon .settings-btn,
+#theme-brown .addon .contact-btn,
+#theme-brown .addon .to-top-btn,
+#theme-brown .addon .print-btn,
+#theme-brown .addon .download-btn {
+  color: #a1887f;
+}
+#theme-brown #contact-section [type="submit"],
+#theme-brown #contact-section-second [type="submit"] {
+  background-color: #a1887f;
+}
+#theme-brown #contact-section [type="submit"]:hover,
+#theme-brown #contact-section-second [type="submit"]:hover {
+  background-color: #ffb300;
+}

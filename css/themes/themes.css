@@ -1,0 +1,150 @@
+/*================================================================
+  #THEME - TEMPLATE
+  ================================================================*/
+/*================================================================
+  #THEME - GENERATE
+  ================================================================*/
+#theme-red #header > .cv-section {
+  border-top: 10px solid #D32F2F;
+}
+#theme-red a,
+#theme-red li:before,
+#theme-red .content .fa,
+#theme-red .settings-panel .panel-title {
+  color: #D32F2F;
+}
+#theme-red .addon .settings-btn,
+#theme-red .addon .contact-btn,
+#theme-red .addon .to-top-btn,
+#theme-red .addon .print-btn,
+#theme-red .addon .download-btn {
+  color: #D32F2F;
+}
+#theme-red #contact-section [type="submit"],
+#theme-red #contact-section-second [type="submit"] {
+  background-color: #D32F2F;
+}
+#theme-red #contact-section [type="submit"]:hover,
+#theme-red #contact-section-second [type="submit"]:hover {
+  background-color: #FFB300;
+}
+#theme-blue #header > .cv-section {
+  border-top: 10px solid #1E88E5;
+}
+#theme-blue a,
+#theme-blue li:before,
+#theme-blue .content .fa,
+#theme-blue .settings-panel .panel-title {
+  color: #1E88E5;
+}
+#theme-blue .addon .settings-btn,
+#theme-blue .addon .contact-btn,
+#theme-blue .addon .to-top-btn,
+#theme-blue .addon .print-btn,
+#theme-blue .addon .download-btn {
+  color: #1E88E5;
+}
+#theme-blue #contact-section [type="submit"],
+#theme-blue #contact-section-second [type="submit"] {
+  background-color: #1E88E5;
+}
+#theme-blue #contact-section [type="submit"]:hover,
+#theme-blue #contact-section-second [type="submit"]:hover {
+  background-color: #FFB300;
+}
+#theme-green #header > .cv-section {
+  border-top: 10px solid #4CAF50;
+}
+#theme-green a,
+#theme-green li:before,
+#theme-green .content .fa,
+#theme-green .settings-panel .panel-title {
+  color: #4CAF50;
+}
+#theme-green .addon .settings-btn,
+#theme-green .addon .contact-btn,
+#theme-green .addon .to-top-btn,
+#theme-green .addon .print-btn,
+#theme-green .addon .download-btn {
+  color: #4CAF50;
+}
+#theme-green #contact-section [type="submit"],
+#theme-green #contact-section-second [type="submit"] {
+  background-color: #4CAF50;
+}
+#theme-green #contact-section [type="submit"]:hover,
+#theme-green #contact-section-second [type="submit"]:hover {
+  background-color: #FFB300;
+}
+#theme-brown #header > .cv-section {
+  border-top: 10px solid #A1887F;
+}
+#theme-brown a,
+#theme-brown li:before,
+#theme-brown .content .fa,
+#theme-brown .settings-panel .panel-title {
+  color: #A1887F;
+}
+#theme-brown .addon .settings-btn,
+#theme-brown .addon .contact-btn,
+#theme-brown .addon .to-top-btn,
+#theme-brown .addon .print-btn,
+#theme-brown .addon .download-btn {
+  color: #A1887F;
+}
+#theme-brown #contact-section [type="submit"],
+#theme-brown #contact-section-second [type="submit"] {
+  background-color: #A1887F;
+}
+#theme-brown #contact-section [type="submit"]:hover,
+#theme-brown #contact-section-second [type="submit"]:hover {
+  background-color: #FFB300;
+}
+#theme-blue-gray #header > .cv-section {
+  border-top: 10px solid #607D8B;
+}
+#theme-blue-gray a,
+#theme-blue-gray li:before,
+#theme-blue-gray .content .fa,
+#theme-blue-gray .settings-panel .panel-title {
+  color: #607D8B;
+}
+#theme-blue-gray .addon .settings-btn,
+#theme-blue-gray .addon .contact-btn,
+#theme-blue-gray .addon .to-top-btn,
+#theme-blue-gray .addon .print-btn,
+#theme-blue-gray .addon .download-btn {
+  color: #607D8B;
+}
+#theme-blue-gray #contact-section [type="submit"],
+#theme-blue-gray #contact-section-second [type="submit"] {
+  background-color: #607D8B;
+}
+#theme-blue-gray #contact-section [type="submit"]:hover,
+#theme-blue-gray #contact-section-second [type="submit"]:hover {
+  background-color: #FFB300;
+}
+#theme-persian-green #header > .cv-section {
+  border-top: 10px solid #03B48D;
+}
+#theme-persian-green a,
+#theme-persian-green li:before,
+#theme-persian-green .content .fa,
+#theme-persian-green .settings-panel .panel-title {
+  color: #03B48D;
+}
+#theme-persian-green .addon .settings-btn,
+#theme-persian-green .addon .contact-btn,
+#theme-persian-green .addon .to-top-btn,
+#theme-persian-green .addon .print-btn,
+#theme-persian-green .addon .download-btn {
+  color: #03B48D;
+}
+#theme-persian-green #contact-section [type="submit"],
+#theme-persian-green #contact-section-second [type="submit"] {
+  background-color: #03B48D;
+}
+#theme-persian-green #contact-section [type="submit"]:hover,
+#theme-persian-green #contact-section-second [type="submit"]:hover {
+  background-color: #FFB300;
+}
