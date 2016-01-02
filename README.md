@@ -1,6 +1,6 @@
 # Classic CV
 
-Classic CV / Resume HTML Template - [Demo](http://demo.jojoee.com/classic-cv) | [Usage Doc](http://jojoee.github.io/classic-cv/docs/usage/) | [Reference Doc](http://jojoee.github.io/classic-cv/docs/reference/) | [Support](http://forum.jojoee.com)
+Classic CV / Resume HTML Template - [Demo](http://jojoee.github.io/classic-cv/) | [Usage Doc](http://jojoee.github.io/classic-cv/docs/usage/) | [Reference Doc](http://jojoee.github.io/classic-cv/docs/reference/)
 
 ## Note
 
