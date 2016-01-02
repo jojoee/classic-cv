@@ -10,16 +10,6 @@ jQuery( document ).ready(function () {
   }
 
   /**
-   * set ripple effect by Waves
-   * work on chrome only
-   */
-  function setRippleEffect() {
-    if ( Waves.displayEffect() ) {
-      Waves.displayEffect();  
-    }
-  }
-
-  /**
    * set lightbox by MagnificPopup
    */
   function setLightbox() {
@@ -201,7 +191,6 @@ jQuery( document ).ready(function () {
     
     setBootstrapTooltip();
     setPieChart( '.pie-chart' );
-    setRippleEffect();
     setLightbox();
     setFormValidationNotifyByModal( '#contact-form-second' );
     setFormValidationNotifyByAlert();
