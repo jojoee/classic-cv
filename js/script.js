@@ -70,7 +70,7 @@ jQuery( document ).ready(function() {
   }
 
   /**
-   * set preload then hide when load complete
+   * set preload then hide when load complete (unused)
    */
   function setPreload() {
     var $loading = $( '#loading' );
@@ -134,7 +134,7 @@ jQuery( document ).ready(function() {
     setContactFormPanelBtn();
     setDynamicCopyrightYear();
 
-    setPreload();
+    // setPreload();
   }
 
   /**
