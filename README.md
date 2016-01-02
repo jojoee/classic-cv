@@ -2,56 +2,7 @@
 
 Classic CV / Resume HTML Template - [Demo](http://demo.jojoee.com/classic-cv) | [Usage Doc](http://jojoee.github.io/classic-cv/docs/usage/) | [Reference Doc](http://jojoee.github.io/classic-cv/docs/reference/) | [Support](http://forum.jojoee.com)
 
-## Folder structure
-
-    classic-cv
-      ├── css
-      │  ├── themes
-      │  │  ├── theme-blue.css..................blue theme
-      │  │  ├── theme-blue-gray.css.............blue gray theme
-      │  │  ├── theme-brown.css.................brown theme
-      │  │  ├── theme-green.css.................green theme
-      │  │  ├── theme-red.css...................red theme
-      │  │  └── themes.css......................all themes
-      │  ├── demo.css
-      │  └── style.css
-      ├── fonts
-      ├── js
-      │  ├── demo.js............................javascript for demo purpose such as panel settings
-      │  ├── script.js..........................main javascript file that is not related to vendors
-      │  └── vendor.js..........................main javascript file that is related to vendors
-      ├── less
-      │  ├── mixins
-      │  │  ├── utilities.less..................utility functions such as clearfix()
-      │  │  └── vendor-prefixes.less............all about vendor prefix such as border-radius, transition
-      │  ├── themes
-      │  │  └── themes.less.....................theme generator
-      │  ├── demo.less..........................stylesheet for demo purpose such as panel settings
-      │  ├── style.less.........................main stylesheet
-      │  └── variables.less.....................all variables
-      ├── media
-      │  ├── bg
-      │  ├── img
-      │  ├── logo
-      │  ├── profile
-      │  └── vid
-      ├── vendor
-      │  ├── bootstrap
-      │  ├── easy-pie-chart
-      │  ├── font-awesome
-      │  ├── gmaps
-      │  ├── jquery
-      │  ├── jquery-validation
-      │  ├── magnific-popup
-      │  └── waves
-      ├── apple-touch-icon-precomposed.png
-      ├── CHANGELOG.MD
-      ├── favicon.ico
-      ├── demo.html............................demo file
-      ├── all-layouts.html.....................demo file without demo.js, demo.css + display all heading styles
-      └── README.md
-
-## Full Featured list
+## Note
 
 + Cross browser support - IE9+, Chrome 39+, Firefox 31+, Safari Window 5.1.7+, Safari iPhone5 8.1.1
 + [W3C valid](validator.w3.org)
@@ -69,17 +20,15 @@ Classic CV / Resume HTML Template - [Demo](http://demo.jojoee.com/classic-cv) | 
 - 2 Contact forms with validation
 - Google Map with COOL style
 - Portfolio section + Lightbox
++ 2 spaces to indent
 
 ## Thank You
 
 - [Material Design](http://www.google.com/design/spec/material-design/introduction.html)
 - [Gulp](http://gulpjs.com/)
 - [Less](http://lesscss.org/)
-    - Lesshat 3.0.2 - MIT
-    - Preboot 2 - MIT
 - [Bootstrap](https://github.com/twbs/bootstrap/) 3.3.1 - MIT
 - [jQuery](http://jquery.com/)
-- [Waves](https://github.com/fians/Waves) 0.5.5 - MIT
 - [Validation](http://jqueryvalidation.org/) 1.13.1 - MIT
 - [Font Awesome](https://github.com/FortAwesome/Font-Awesome) 4.2.0 - [License](http://fortawesome.github.io/Font-Awesome/license/)
 - [Doxx](https://github.com/FGRibreau/doxx) - MIT
@@ -102,9 +51,3 @@ Classic CV / Resume HTML Template - [Demo](http://demo.jojoee.com/classic-cv) | 
 - Buzz by [kennymatic](https://www.flickr.com/photos/kwl) - CC BY-ND 2.0
 - Mac Device Mock - [Michael Reimer](http://www.bestpsdfreebies.com/)
 - Web browser icon - [Zlatko Najdenovski](https://www.iconfinder.com/zlaten) and [Pixel Buddha](https://www.iconfinder.com/PixelBuddha)
-
-## Future updates
-- update READEME.md on usage document
-
-## Note
-- use 2 spaces to indent
