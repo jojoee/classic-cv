@@ -1,6 +1,6 @@
 # Classic CV
 
-Classic CV / Resume HTML Template - [Demo](http://demo.jojoee.com/classic-cv) | [Usage Doc](http://demo.jojoee.com/classic-cv/docs/usage/) | [Reference Doc](http://demo.jojoee.com/classic-cv/docs/reference/) | [Support](http://forum.jojoee.com)
+Classic CV / Resume HTML Template - [Demo](http://demo.jojoee.com/classic-cv) | [Usage Doc](http://jojoee.github.io/classic-cv/docs/usage/) | [Reference Doc](http://jojoee.github.io/classic-cv/docs/reference/) | [Support](http://forum.jojoee.com)
 
 ## Folder structure
 
@@ -15,9 +15,6 @@ Classic CV / Resume HTML Template - [Demo](http://demo.jojoee.com/classic-cv) | 
       │  │  └── themes.css......................all themes
       │  ├── demo.css
       │  └── style.css
-      ├── docs
-      │  ├── reference..........................javascript reference document
-      │  └── usage..............................usage document
       ├── fonts
       ├── js
       │  ├── demo.js............................javascript for demo purpose such as panel settings
@@ -56,31 +53,22 @@ Classic CV / Resume HTML Template - [Demo](http://demo.jojoee.com/classic-cv) | 
 
 ## Full Featured list
 
-+ **Cross browser** support - IE9+, Chrome 39+, Firefox 31+, Safari Window 5.1.7+, Safari iPhone5 8.1.1
++ Cross browser support - IE9+, Chrome 39+, Firefox 31+, Safari Window 5.1.7+, Safari iPhone5 8.1.1
 + [W3C valid](validator.w3.org)
-+ **Responsive layout** - based on Bootstrap
-+ **Material Design** - Color palette and Ripple effect when click (Google Chrome)
-+ **7 Header styles**
-+ **6 Theme colors**
++ Responsive layout - based on Bootstrap
++ 7 Header styles
++ 6 Theme colors
 + 30 Body background - 10 Solid Colors, 16 Patterns, 4 Images
-+ **SEO friendly**
-+ **Retina ready**
-+ Icon 470+ with Font Awesome
-+ **[Support](http://forum.jojoee.com/)**
-+ **Usage** and **Javascript reference** documents
-+ Google Fonts
-- HTML5 + CSS3
-- jQuery
-- **Bootstrap**
-- **Less**
-- Pretty **Code standard** and **DocBlock** comment
-- 2 **Contact forms** with validation
-- Tooltip, Alert, Modal
-- **Google Map** with COOL style
-- **Portfolio**
-- **Lightbox**
-- Dynamic copyright year
-- Preload
++ SEO friendly
++ Retina ready
++ Font Awesome
+- Bootstrap
+- Less
+- [Wordpress JavaScript Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/)
+- DocBlock comment
+- 2 Contact forms with validation
+- Google Map with COOL style
+- Portfolio section + Lightbox
 
 ## Thank You
 
