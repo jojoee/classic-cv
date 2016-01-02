@@ -2,7 +2,5 @@ my/
 bk/
 brochure/
 node_modules/
-README2.md
-README3.md
-README-prod.md
+README*.md
 CHANGELOG.md
