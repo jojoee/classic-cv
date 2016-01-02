@@ -41,7 +41,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   height: 100%;
   width: 100%;
-  overflow: hidden !important;
 }
 a {
   -webkit-transition: all 0.3s ease;
