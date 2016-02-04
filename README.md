@@ -2,6 +2,8 @@
 
 Classic CV / Resume HTML Template - [Demo](http://jojoee.github.io/classic-cv/) | [Usage Doc](http://jojoee.github.io/classic-cv/docs/usage/) | [Reference Doc](http://jojoee.github.io/classic-cv/docs/reference/)
 
+[![Classic CV - Demo Screenshot](https://raw.githubusercontent.com/jojoee/classic-cv/gh-pages/ss/demo.jpg "Classic CV - Demo Screenshot")](http://jojoee.github.io/classic-cv/)
+
 ## Note
 
 + Cross browser support - IE9+, Chrome 39+, Firefox 31+, Safari Window 5.1.7+, Safari iPhone5 8.1.1
