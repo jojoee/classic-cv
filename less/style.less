@@ -506,11 +506,16 @@ li {
 
 .portfolio {
 
-  img {
-    width: 216px;
-    max-width: 216px;
+  .port-item {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 144px;
     max-height: 144px;
     margin-bottom: @space-sm;
+    border: 1px solid @white;
+    box-sizing: border-box;
   }
 }
 
@@ -614,7 +619,7 @@ li {
 
   [type="submit"] {
     background-color: @theme-color;
-    color: #fff;
+    color: @white;
     .border-radius-none;
     #transition > .transition();
 
@@ -649,7 +654,7 @@ li {
   .to-top-btn,
   .print-btn,
   .download-btn {
-    background-color: #FFF;
+    background-color: @white;
     text-align: center;
     line-height: @space-base;
     font-size: 24px;
@@ -684,7 +689,6 @@ li {
 
 .mfp-zoom {
   display: block;
-  width: 216px;
   margin: 0 auto;
 }
 
@@ -809,14 +813,14 @@ body.modal-open { padding-right: 0 !important; }
 
 .box-space {
   opacity: 0;
-  background-color: #fff;
+  background-color: @white;
 }
 
 .loading {
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: #FFF;
+  background-color: @white;
   margin: 0 auto;
   padding-top: 148px;
   top: 0;
@@ -839,7 +843,7 @@ body.modal-open { padding-right: 0 !important; }
   height: 12px;
   margin-left: 2px;
   margin-bottom: 2px;
-  background: #fff;
+  background: @white;
   float: left;
 
   &:nth-child(3n+1) {
