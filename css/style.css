@@ -88,11 +88,6 @@ a:hover {
 .cv-section:after {
   clear: both;
 }
-@media (min-width: 992px) {
-  .cv-section {
-    width: 944px;
-  }
-}
 .cv-section-fullw {
   margin-left: -15px;
   margin-right: -15px;
