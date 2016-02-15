@@ -88,11 +88,6 @@ a:hover {
 .cv-section:after {
   clear: both;
 }
-@media (min-width: 992px) {
-  .cv-section {
-    width: 944px;
-  }
-}
 .cv-section-fullw {
   margin-left: -15px;
   margin-right: -15px;
@@ -485,11 +480,16 @@ li:before {
 /*================================================================
   #CONTENT - portfolio
   ================================================================*/
-.portfolio img {
-  width: 216px;
-  max-width: 216px;
+.portfolio .port-item {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 144px;
   max-height: 144px;
   margin-bottom: 12px;
+  border: 1px solid #FFF;
+  box-sizing: border-box;
 }
 .port-item {
   overflow: hidden;
@@ -590,7 +590,7 @@ li:before {
 #contact-section [type="submit"],
 #contact-section-second [type="submit"] {
   background-color: #757575;
-  color: #fff;
+  color: #FFF;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
@@ -681,7 +681,6 @@ li:before {
 }
 .mfp-zoom {
   display: block;
-  width: 216px;
   margin: 0 auto;
 }
 .mfp-title {
@@ -781,7 +780,7 @@ body.modal-open {
   ================================================================*/
 .box-space {
   opacity: 0;
-  background-color: #fff;
+  background-color: #FFF;
 }
 .loading {
   position: fixed;
@@ -807,7 +806,7 @@ body.modal-open {
   height: 12px;
   margin-left: 2px;
   margin-bottom: 2px;
-  background: #fff;
+  background: #FFF;
   float: left;
 }
 .box:nth-child(3n+1) {
