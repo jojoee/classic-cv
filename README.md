@@ -2,7 +2,7 @@
 
 Classic CV / Resume HTML Template - [Demo](http://jojoee.github.io/classic-cv/) | [Usage Doc](http://jojoee.github.io/classic-cv/docs/usage/) | [Reference Doc](http://jojoee.github.io/classic-cv/docs/reference/)
 
-[![Classic CV - Demo Screenshot](https://raw.githubusercontent.com/jojoee/classic-cv/gh-pages/ss/demo.jpg "Classic CV - Demo Screenshot")](http://jojoee.github.io/classic-cv/)
+[![Classic CV - Demo Screenshot](https://raw.githubusercontent.com/jojoee/classic-cv/gh-pages/ss/demo.jpg "Classic CV - Demo Screenshot")](http://jojoee.github.io/classic-cv/) [![Greenkeeper badge](https://badges.greenkeeper.io/jojoee/classic-cv.svg)](https://greenkeeper.io/)
 
 ## Note
 
